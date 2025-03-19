@@ -19,7 +19,7 @@ class Solution {
         }
         int sum = 0;
         while (!heap.isEmpty ())
-            sum += heap.poll ();
+            sum +=heap.poll ();
         return sum;
     }
 }

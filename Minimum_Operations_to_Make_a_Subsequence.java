@@ -21,7 +21,6 @@ class Solution {
         }
         return target.length - idx - 1;
     }
-
     private void binarySearch(int start, int end, int target) {
         while (start <= end) {
             int mid = start + (end - start) / 2;

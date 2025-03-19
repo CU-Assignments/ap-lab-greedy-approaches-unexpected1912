@@ -56,6 +56,7 @@ class Solution {
                 ans=mid;
            }    
          else{
+
                 high=mid-1;
             }
         }

@@ -6,7 +6,7 @@ class Solution {
             int count = Math.min(b[0], T);
             ans += count * b[1];
             T -= count;
-			if (T == 0) return ans;
+			if (T == 0)  return ans;
         }
         return ans;
     }

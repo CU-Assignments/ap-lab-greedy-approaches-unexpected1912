@@ -14,6 +14,7 @@ class Solution {
         for(int i=0; i<len; i++){
             count+=arr[i]-nums[i];
         }
+        
         return count;
     }
 }
